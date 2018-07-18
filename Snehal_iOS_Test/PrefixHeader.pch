@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  Snehal_iOS_Test_DSG
+//
+//  Created by Snehal Lokhande on 16/07/18.
+//  Copyright © 2018 Snehal Lokhande. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "AppDelegate.h"
+#import "ArticlesListVC.h"
+#import "TableViewCell.h"
+#import "ArticleDetailsVC.h"
+#import "CollectionCell.h"
+#import "SwipeImagesVC.h"
+#import "ArticlesListVC.h"
+#import "UIImage+animatedGIF.h"
+#import "Reachability.h"
+#import "MethodsManager.h"
+#import "WebViewVC.h"
+
+#endif /* PrefixHeader_pch */
+
+//
+//#import <Availability.h>
+//
+//#ifndef __IPHONE_5_0
+//#warning "This project uses features only available in iOS SDK 5.0 and later."
+//#endif
+//
+//#ifdef __OBJC__
+//#import <UIKit/UIKit.h>
+//#import <Foundation/Foundation.h>
+//#import "AppDelegate.h"
+//#import ""ArticlesListVC.h
+//
+//#endif

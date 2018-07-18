@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A89667613E0A4745D0F86A9 /* libPods-Snehal_iOS_TestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2448AF4D40827E2E43A18 /* libPods-Snehal_iOS_TestTests.a */; };
+		4A18423620FF4DBE00E92088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18423520FF4DBE00E92088 /* main.m */; };
+		4A18424120FF4DBE00E92088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A18424020FF4DBE00E92088 /* Assets.xcassets */; };
+		4A18424F20FF4DBE00E92088 /* Snehal_iOS_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18424E20FF4DBE00E92088 /* Snehal_iOS_TestTests.m */; };
+		4A18425A20FF4DBE00E92088 /* Snehal_iOS_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18425920FF4DBE00E92088 /* Snehal_iOS_TestUITests.m */; };
+		4A18427020FF4E6900E92088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18426820FF4E6900E92088 /* AppDelegate.m */; };
+		4A18427120FF4E6900E92088 /* MethodsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18426B20FF4E6900E92088 /* MethodsManager.m */; };
+		4A18427220FF4E6900E92088 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18426D20FF4E6900E92088 /* UIImage+animatedGIF.m */; };
+		4A18427320FF4E6900E92088 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18426F20FF4E6900E92088 /* Reachability.m */; };
+		4A18427720FF4E9000E92088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427620FF4E9000E92088 /* Main.storyboard */; };
+		4A18428520FF4EA400E92088 /* The-New-York-Times-vector-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427920FF4EA400E92088 /* The-New-York-Times-vector-logo.png */; };
+		4A18428620FF4EA400E92088 /* The_New_York_Times_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427A20FF4EA400E92088 /* The_New_York_Times_logo.png */; };
+		4A18428720FF4EA400E92088 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427B20FF4EA400E92088 /* bg.jpg */; };
+		4A18428820FF4EA400E92088 /* icons8-menu-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427C20FF4EA400E92088 /* icons8-menu-60.png */; };
+		4A18428920FF4EA400E92088 /* icons8-menu-vertical-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427D20FF4EA400E92088 /* icons8-menu-vertical-filled-50.png */; };
+		4A18428A20FF4EA400E92088 /* icons8-search-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427E20FF4EA400E92088 /* icons8-search-50.png */; };
+		4A18428B20FF4EA400E92088 /* Symbol-New-York-Times.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18427F20FF4EA400E92088 /* Symbol-New-York-Times.png */; };
+		4A18428C20FF4EA400E92088 /* icons8-more-than-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18428020FF4EA400E92088 /* icons8-more-than-50.png */; };
+		4A18428D20FF4EA400E92088 /* icons8-forward-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18428120FF4EA400E92088 /* icons8-forward-96.png */; };
+		4A18428E20FF4EA400E92088 /* icons8-calendar-filled-500.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18428220FF4EA400E92088 /* icons8-calendar-filled-500.png */; };
+		4A18428F20FF4EA400E92088 /* icons8-back-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A18428320FF4EA400E92088 /* icons8-back-52.png */; };
+		4A18429020FF4EA400E92088 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A18428420FF4EA400E92088 /* loader.gif */; };
+		4A18429820FF4ED600E92088 /* ArticlesListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18429520FF4ED600E92088 /* ArticlesListVC.m */; };
+		4A18429920FF4ED600E92088 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18429720FF4ED600E92088 /* TableViewCell.m */; };
+		4A1842A020FF4EFB00E92088 /* ArticleDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18429D20FF4EFB00E92088 /* ArticleDetailsVC.m */; };
+		4A1842A120FF4EFB00E92088 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18429F20FF4EFB00E92088 /* CollectionCell.m */; };
+		4A1842A720FF4F1000E92088 /* SwipeImagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1842A420FF4F1000E92088 /* SwipeImagesVC.m */; };
+		4A1842A820FF4F1000E92088 /* PHPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1842A620FF4F1000E92088 /* PHPageScrollView.m */; };
+		4A1842AC20FF4F2E00E92088 /* WebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1842AB20FF4F2E00E92088 /* WebViewVC.m */; };
+		4A1842AE20FF4F4400E92088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1842AD20FF4F4400E92088 /* LaunchScreen.storyboard */; };
+		7886458DB1C535E445573B4A /* libPods-Snehal_iOS_TestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3314C02B03C911F02A3285 /* libPods-Snehal_iOS_TestUITests.a */; };
+		869F22FA65CD4EAFD074AB5C /* libPods-Snehal_iOS_Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9664DA6012AD94FBFA0371 /* libPods-Snehal_iOS_Test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A18424B20FF4DBE00E92088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A18422920FF4DBD00E92088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A18423020FF4DBD00E92088;
+			remoteInfo = Snehal_iOS_Test;
+		};
+		4A18425620FF4DBE00E92088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A18422920FF4DBD00E92088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A18423020FF4DBD00E92088;
+			remoteInfo = Snehal_iOS_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E471D1C17EBF008D6D668C4 /* Pods-Snehal_iOS_TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snehal_iOS_TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snehal_iOS_TestUITests/Pods-Snehal_iOS_TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		116728F0F59770BCEDF29DBF /* Pods-Snehal_iOS_TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snehal_iOS_TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snehal_iOS_TestTests/Pods-Snehal_iOS_TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16E21751BE9BF9EB334374C8 /* Pods-Snehal_iOS_TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snehal_iOS_TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snehal_iOS_TestUITests/Pods-Snehal_iOS_TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A18423120FF4DBD00E92088 /* Snehal_iOS_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snehal_iOS_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A18423520FF4DBE00E92088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A18424020FF4DBE00E92088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A18424520FF4DBE00E92088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A18424A20FF4DBE00E92088 /* Snehal_iOS_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snehal_iOS_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A18424E20FF4DBE00E92088 /* Snehal_iOS_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snehal_iOS_TestTests.m; sourceTree = "<group>"; };
+		4A18425020FF4DBE00E92088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A18425520FF4DBE00E92088 /* Snehal_iOS_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snehal_iOS_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A18425920FF4DBE00E92088 /* Snehal_iOS_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snehal_iOS_TestUITests.m; sourceTree = "<group>"; };
+		4A18425B20FF4DBE00E92088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A18426720FF4E5000E92088 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4A18426820FF4E6900E92088 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A18426920FF4E6900E92088 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A18426A20FF4E6900E92088 /* MethodsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodsManager.h; sourceTree = "<group>"; };
+		4A18426B20FF4E6900E92088 /* MethodsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodsManager.m; sourceTree = "<group>"; };
+		4A18426C20FF4E6900E92088 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		4A18426D20FF4E6900E92088 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		4A18426E20FF4E6900E92088 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4A18426F20FF4E6900E92088 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4A18427620FF4E9000E92088 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4A18427920FF4EA400E92088 /* The-New-York-Times-vector-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The-New-York-Times-vector-logo.png"; sourceTree = "<group>"; };
+		4A18427A20FF4EA400E92088 /* The_New_York_Times_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_New_York_Times_logo.png; sourceTree = "<group>"; };
+		4A18427B20FF4EA400E92088 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		4A18427C20FF4EA400E92088 /* icons8-menu-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-menu-60.png"; sourceTree = "<group>"; };
+		4A18427D20FF4EA400E92088 /* icons8-menu-vertical-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-menu-vertical-filled-50.png"; sourceTree = "<group>"; };
+		4A18427E20FF4EA400E92088 /* icons8-search-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-50.png"; sourceTree = "<group>"; };
+		4A18427F20FF4EA400E92088 /* Symbol-New-York-Times.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Symbol-New-York-Times.png"; sourceTree = "<group>"; };
+		4A18428020FF4EA400E92088 /* icons8-more-than-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-more-than-50.png"; sourceTree = "<group>"; };
+		4A18428120FF4EA400E92088 /* icons8-forward-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-forward-96.png"; sourceTree = "<group>"; };
+		4A18428220FF4EA400E92088 /* icons8-calendar-filled-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calendar-filled-500.png"; sourceTree = "<group>"; };
+		4A18428320FF4EA400E92088 /* icons8-back-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-back-52.png"; sourceTree = "<group>"; };
+		4A18428420FF4EA400E92088 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		4A18429420FF4ED600E92088 /* ArticlesListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesListVC.h; sourceTree = "<group>"; };
+		4A18429520FF4ED600E92088 /* ArticlesListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlesListVC.m; sourceTree = "<group>"; };
+		4A18429620FF4ED600E92088 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		4A18429720FF4ED600E92088 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		4A18429C20FF4EFB00E92088 /* ArticleDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleDetailsVC.h; sourceTree = "<group>"; };
+		4A18429D20FF4EFB00E92088 /* ArticleDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleDetailsVC.m; sourceTree = "<group>"; };
+		4A18429E20FF4EFB00E92088 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		4A18429F20FF4EFB00E92088 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		4A1842A320FF4F1000E92088 /* SwipeImagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeImagesVC.h; sourceTree = "<group>"; };
+		4A1842A420FF4F1000E92088 /* SwipeImagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeImagesVC.m; sourceTree = "<group>"; };
+		4A1842A520FF4F1000E92088 /* PHPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPageScrollView.h; sourceTree = "<group>"; };
+		4A1842A620FF4F1000E92088 /* PHPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPageScrollView.m; sourceTree = "<group>"; };
+		4A1842AA20FF4F2E00E92088 /* WebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewVC.h; sourceTree = "<group>"; };
+		4A1842AB20FF4F2E00E92088 /* WebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewVC.m; sourceTree = "<group>"; };
+		4A1842AD20FF4F4400E92088 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B3314C02B03C911F02A3285 /* libPods-Snehal_iOS_TestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snehal_iOS_TestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9664DA6012AD94FBFA0371 /* libPods-Snehal_iOS_Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snehal_iOS_Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6631BEA600270DA3299EA9 /* Pods-Snehal_iOS_TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snehal_iOS_TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snehal_iOS_TestTests/Pods-Snehal_iOS_TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB30DC1E14F7E2CFF6D3559B /* Pods-Snehal_iOS_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snehal_iOS_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snehal_iOS_Test/Pods-Snehal_iOS_Test.release.xcconfig"; sourceTree = "<group>"; };
+		F1E2448AF4D40827E2E43A18 /* libPods-Snehal_iOS_TestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snehal_iOS_TestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBABF3FEA4E766F4AC007EA6 /* Pods-Snehal_iOS_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snehal_iOS_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snehal_iOS_Test/Pods-Snehal_iOS_Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A18422E20FF4DBD00E92088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F22FA65CD4EAFD074AB5C /* libPods-Snehal_iOS_Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A18424720FF4DBE00E92088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A89667613E0A4745D0F86A9 /* libPods-Snehal_iOS_TestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A18425220FF4DBE00E92088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7886458DB1C535E445573B4A /* libPods-Snehal_iOS_TestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A18422820FF4DBD00E92088 = {
+			isa = PBXGroup;
+			children = (
+				4A18426720FF4E5000E92088 /* PrefixHeader.pch */,
+				4A18423320FF4DBE00E92088 /* Snehal_iOS_Test */,
+				4A18424D20FF4DBE00E92088 /* Snehal_iOS_TestTests */,
+				4A18425820FF4DBE00E92088 /* Snehal_iOS_TestUITests */,
+				4A18423220FF4DBD00E92088 /* Products */,
+				72BCEA780C9B7FD7E8EF515C /* Pods */,
+				E025DD7BAFC33FE5BE7546C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A18423220FF4DBD00E92088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A18423120FF4DBD00E92088 /* Snehal_iOS_Test.app */,
+				4A18424A20FF4DBE00E92088 /* Snehal_iOS_TestTests.xctest */,
+				4A18425520FF4DBE00E92088 /* Snehal_iOS_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A18423320FF4DBE00E92088 /* Snehal_iOS_Test */ = {
+			isa = PBXGroup;
+			children = (
+				4A18427420FF4E6C00E92088 /* Model */,
+				4A18427520FF4E7B00E92088 /* View */,
+				4A18429120FF4EB300E92088 /* Controllers */,
+				4A18424020FF4DBE00E92088 /* Assets.xcassets */,
+				4A1842AD20FF4F4400E92088 /* LaunchScreen.storyboard */,
+				4A18424520FF4DBE00E92088 /* Info.plist */,
+				4A18423420FF4DBE00E92088 /* Supporting Files */,
+			);
+			path = Snehal_iOS_Test;
+			sourceTree = "<group>";
+		};
+		4A18423420FF4DBE00E92088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A18423520FF4DBE00E92088 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A18424D20FF4DBE00E92088 /* Snehal_iOS_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A18424E20FF4DBE00E92088 /* Snehal_iOS_TestTests.m */,
+				4A18425020FF4DBE00E92088 /* Info.plist */,
+			);
+			path = Snehal_iOS_TestTests;
+			sourceTree = "<group>";
+		};
+		4A18425820FF4DBE00E92088 /* Snehal_iOS_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A18425920FF4DBE00E92088 /* Snehal_iOS_TestUITests.m */,
+				4A18425B20FF4DBE00E92088 /* Info.plist */,
+			);
+			path = Snehal_iOS_TestUITests;
+			sourceTree = "<group>";
+		};
+		4A18427420FF4E6C00E92088 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A18426820FF4E6900E92088 /* AppDelegate.m */,
+				4A18426920FF4E6900E92088 /* AppDelegate.h */,
+				4A18426A20FF4E6900E92088 /* MethodsManager.h */,
+				4A18426B20FF4E6900E92088 /* MethodsManager.m */,
+				4A18426C20FF4E6900E92088 /* UIImage+animatedGIF.h */,
+				4A18426D20FF4E6900E92088 /* UIImage+animatedGIF.m */,
+				4A18426E20FF4E6900E92088 /* Reachability.h */,
+				4A18426F20FF4E6900E92088 /* Reachability.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A18427520FF4E7B00E92088 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A18427820FF4E9400E92088 /* Images */,
+				4A18427620FF4E9000E92088 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A18427820FF4E9400E92088 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4A18427920FF4EA400E92088 /* The-New-York-Times-vector-logo.png */,
+				4A18427A20FF4EA400E92088 /* The_New_York_Times_logo.png */,
+				4A18427B20FF4EA400E92088 /* bg.jpg */,
+				4A18427C20FF4EA400E92088 /* icons8-menu-60.png */,
+				4A18427D20FF4EA400E92088 /* icons8-menu-vertical-filled-50.png */,
+				4A18427E20FF4EA400E92088 /* icons8-search-50.png */,
+				4A18427F20FF4EA400E92088 /* Symbol-New-York-Times.png */,
+				4A18428020FF4EA400E92088 /* icons8-more-than-50.png */,
+				4A18428120FF4EA400E92088 /* icons8-forward-96.png */,
+				4A18428220FF4EA400E92088 /* icons8-calendar-filled-500.png */,
+				4A18428320FF4EA400E92088 /* icons8-back-52.png */,
+				4A18428420FF4EA400E92088 /* loader.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4A18429120FF4EB300E92088 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A1842A920FF4F1900E92088 /* Web View for URL */,
+				4A1842A220FF4EFE00E92088 /* Pictures of Article */,
+				4A18429B20FF4EEB00E92088 /* Article Details */,
+				4A18429A20FF4ED800E92088 /* Article List */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4A18429A20FF4ED800E92088 /* Article List */ = {
+			isa = PBXGroup;
+			children = (
+				4A18429420FF4ED600E92088 /* ArticlesListVC.h */,
+				4A18429520FF4ED600E92088 /* ArticlesListVC.m */,
+				4A18429620FF4ED600E92088 /* TableViewCell.h */,
+				4A18429720FF4ED600E92088 /* TableViewCell.m */,
+			);
+			name = "Article List";
+			sourceTree = "<group>";
+		};
+		4A18429B20FF4EEB00E92088 /* Article Details */ = {
+			isa = PBXGroup;
+			children = (
+				4A18429C20FF4EFB00E92088 /* ArticleDetailsVC.h */,
+				4A18429D20FF4EFB00E92088 /* ArticleDetailsVC.m */,
+				4A18429E20FF4EFB00E92088 /* CollectionCell.h */,
+				4A18429F20FF4EFB00E92088 /* CollectionCell.m */,
+			);
+			name = "Article Details";
+			sourceTree = "<group>";
+		};
+		4A1842A220FF4EFE00E92088 /* Pictures of Article */ = {
+			isa = PBXGroup;
+			children = (
+				4A1842A320FF4F1000E92088 /* SwipeImagesVC.h */,
+				4A1842A420FF4F1000E92088 /* SwipeImagesVC.m */,
+				4A1842A520FF4F1000E92088 /* PHPageScrollView.h */,
+				4A1842A620FF4F1000E92088 /* PHPageScrollView.m */,
+			);
+			name = "Pictures of Article";
+			sourceTree = "<group>";
+		};
+		4A1842A920FF4F1900E92088 /* Web View for URL */ = {
+			isa = PBXGroup;
+			children = (
+				4A1842AA20FF4F2E00E92088 /* WebViewVC.h */,
+				4A1842AB20FF4F2E00E92088 /* WebViewVC.m */,
+			);
+			name = "Web View for URL";
+			sourceTree = "<group>";
+		};
+		72BCEA780C9B7FD7E8EF515C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBABF3FEA4E766F4AC007EA6 /* Pods-Snehal_iOS_Test.debug.xcconfig */,
+				EB30DC1E14F7E2CFF6D3559B /* Pods-Snehal_iOS_Test.release.xcconfig */,
+				116728F0F59770BCEDF29DBF /* Pods-Snehal_iOS_TestTests.debug.xcconfig */,
+				9C6631BEA600270DA3299EA9 /* Pods-Snehal_iOS_TestTests.release.xcconfig */,
+				16E21751BE9BF9EB334374C8 /* Pods-Snehal_iOS_TestUITests.debug.xcconfig */,
+				0E471D1C17EBF008D6D668C4 /* Pods-Snehal_iOS_TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E025DD7BAFC33FE5BE7546C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B9664DA6012AD94FBFA0371 /* libPods-Snehal_iOS_Test.a */,
+				F1E2448AF4D40827E2E43A18 /* libPods-Snehal_iOS_TestTests.a */,
+				5B3314C02B03C911F02A3285 /* libPods-Snehal_iOS_TestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A18423020FF4DBD00E92088 /* Snehal_iOS_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A18425E20FF4DBE00E92088 /* Build configuration list for PBXNativeTarget "Snehal_iOS_Test" */;
+			buildPhases = (
+				2298D4A7147A164E56747CAC /* [CP] Check Pods Manifest.lock */,
+				4A18422D20FF4DBD00E92088 /* Sources */,
+				4A18422E20FF4DBD00E92088 /* Frameworks */,
+				4A18422F20FF4DBD00E92088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snehal_iOS_Test;
+			productName = Snehal_iOS_Test;
+			productReference = 4A18423120FF4DBD00E92088 /* Snehal_iOS_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A18424920FF4DBE00E92088 /* Snehal_iOS_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A18426120FF4DBE00E92088 /* Build configuration list for PBXNativeTarget "Snehal_iOS_TestTests" */;
+			buildPhases = (
+				658AE949BE4E53843971476A /* [CP] Check Pods Manifest.lock */,
+				4A18424620FF4DBE00E92088 /* Sources */,
+				4A18424720FF4DBE00E92088 /* Frameworks */,
+				4A18424820FF4DBE00E92088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A18424C20FF4DBE00E92088 /* PBXTargetDependency */,
+			);
+			name = Snehal_iOS_TestTests;
+			productName = Snehal_iOS_TestTests;
+			productReference = 4A18424A20FF4DBE00E92088 /* Snehal_iOS_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A18425420FF4DBE00E92088 /* Snehal_iOS_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A18426420FF4DBE00E92088 /* Build configuration list for PBXNativeTarget "Snehal_iOS_TestUITests" */;
+			buildPhases = (
+				0BB059BF7A8E171EC01D5DE8 /* [CP] Check Pods Manifest.lock */,
+				4A18425120FF4DBE00E92088 /* Sources */,
+				4A18425220FF4DBE00E92088 /* Frameworks */,
+				4A18425320FF4DBE00E92088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A18425720FF4DBE00E92088 /* PBXTargetDependency */,
+			);
+			name = Snehal_iOS_TestUITests;
+			productName = Snehal_iOS_TestUITests;
+			productReference = 4A18425520FF4DBE00E92088 /* Snehal_iOS_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A18422920FF4DBD00E92088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vilas Kumar";
+				TargetAttributes = {
+					4A18423020FF4DBD00E92088 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D65K78V3KD;
+						ProvisioningStyle = Automatic;
+					};
+					4A18424920FF4DBE00E92088 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A18423020FF4DBD00E92088;
+					};
+					4A18425420FF4DBE00E92088 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A18423020FF4DBD00E92088;
+					};
+				};
+			};
+			buildConfigurationList = 4A18422C20FF4DBD00E92088 /* Build configuration list for PBXProject "Snehal_iOS_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A18422820FF4DBD00E92088;
+			productRefGroup = 4A18423220FF4DBD00E92088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A18423020FF4DBD00E92088 /* Snehal_iOS_Test */,
+				4A18424920FF4DBE00E92088 /* Snehal_iOS_TestTests */,
+				4A18425420FF4DBE00E92088 /* Snehal_iOS_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A18422F20FF4DBD00E92088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A18428C20FF4EA400E92088 /* icons8-more-than-50.png in Resources */,
+				4A18428820FF4EA400E92088 /* icons8-menu-60.png in Resources */,
+				4A18428A20FF4EA400E92088 /* icons8-search-50.png in Resources */,
+				4A1842AE20FF4F4400E92088 /* LaunchScreen.storyboard in Resources */,
+				4A18429020FF4EA400E92088 /* loader.gif in Resources */,
+				4A18428620FF4EA400E92088 /* The_New_York_Times_logo.png in Resources */,
+				4A18428520FF4EA400E92088 /* The-New-York-Times-vector-logo.png in Resources */,
+				4A18428B20FF4EA400E92088 /* Symbol-New-York-Times.png in Resources */,
+				4A18427720FF4E9000E92088 /* Main.storyboard in Resources */,
+				4A18428920FF4EA400E92088 /* icons8-menu-vertical-filled-50.png in Resources */,
+				4A18428720FF4EA400E92088 /* bg.jpg in Resources */,
+				4A18428E20FF4EA400E92088 /* icons8-calendar-filled-500.png in Resources */,
+				4A18428D20FF4EA400E92088 /* icons8-forward-96.png in Resources */,
+				4A18424120FF4DBE00E92088 /* Assets.xcassets in Resources */,
+				4A18428F20FF4EA400E92088 /* icons8-back-52.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A18424820FF4DBE00E92088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A18425320FF4DBE00E92088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB059BF7A8E171EC01D5DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snehal_iOS_TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2298D4A7147A164E56747CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snehal_iOS_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658AE949BE4E53843971476A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snehal_iOS_TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A18422D20FF4DBD00E92088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1842A020FF4EFB00E92088 /* ArticleDetailsVC.m in Sources */,
+				4A18429920FF4ED600E92088 /* TableViewCell.m in Sources */,
+				4A18427020FF4E6900E92088 /* AppDelegate.m in Sources */,
+				4A1842A720FF4F1000E92088 /* SwipeImagesVC.m in Sources */,
+				4A1842A120FF4EFB00E92088 /* CollectionCell.m in Sources */,
+				4A18427220FF4E6900E92088 /* UIImage+animatedGIF.m in Sources */,
+				4A18423620FF4DBE00E92088 /* main.m in Sources */,
+				4A1842A820FF4F1000E92088 /* PHPageScrollView.m in Sources */,
+				4A1842AC20FF4F2E00E92088 /* WebViewVC.m in Sources */,
+				4A18427120FF4E6900E92088 /* MethodsManager.m in Sources */,
+				4A18427320FF4E6900E92088 /* Reachability.m in Sources */,
+				4A18429820FF4ED600E92088 /* ArticlesListVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A18424620FF4DBE00E92088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A18424F20FF4DBE00E92088 /* Snehal_iOS_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A18425120FF4DBE00E92088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A18425A20FF4DBE00E92088 /* Snehal_iOS_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A18424C20FF4DBE00E92088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A18423020FF4DBD00E92088 /* Snehal_iOS_Test */;
+			targetProxy = 4A18424B20FF4DBE00E92088 /* PBXContainerItemProxy */;
+		};
+		4A18425720FF4DBE00E92088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A18423020FF4DBD00E92088 /* Snehal_iOS_Test */;
+			targetProxy = 4A18425620FF4DBE00E92088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A18425C20FF4DBE00E92088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A18425D20FF4DBE00E92088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A18425F20FF4DBE00E92088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBABF3FEA4E766F4AC007EA6 /* Pods-Snehal_iOS_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D65K78V3KD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = Snehal_iOS_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NYTimes.Snehal-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A18426020FF4DBE00E92088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB30DC1E14F7E2CFF6D3559B /* Pods-Snehal_iOS_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D65K78V3KD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = Snehal_iOS_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NYTimes.Snehal-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A18426220FF4DBE00E92088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116728F0F59770BCEDF29DBF /* Pods-Snehal_iOS_TestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Snehal_iOS_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NYTimes.Snehal-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snehal_iOS_Test.app/Snehal_iOS_Test";
+			};
+			name = Debug;
+		};
+		4A18426320FF4DBE00E92088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6631BEA600270DA3299EA9 /* Pods-Snehal_iOS_TestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Snehal_iOS_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NYTimes.Snehal-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snehal_iOS_Test.app/Snehal_iOS_Test";
+			};
+			name = Release;
+		};
+		4A18426520FF4DBE00E92088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E21751BE9BF9EB334374C8 /* Pods-Snehal_iOS_TestUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Snehal_iOS_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NYTimes.Snehal-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Snehal_iOS_Test;
+			};
+			name = Debug;
+		};
+		4A18426620FF4DBE00E92088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E471D1C17EBF008D6D668C4 /* Pods-Snehal_iOS_TestUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Snehal_iOS_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NYTimes.Snehal-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Snehal_iOS_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A18422C20FF4DBD00E92088 /* Build configuration list for PBXProject "Snehal_iOS_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A18425C20FF4DBE00E92088 /* Debug */,
+				4A18425D20FF4DBE00E92088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A18425E20FF4DBE00E92088 /* Build configuration list for PBXNativeTarget "Snehal_iOS_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A18425F20FF4DBE00E92088 /* Debug */,
+				4A18426020FF4DBE00E92088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A18426120FF4DBE00E92088 /* Build configuration list for PBXNativeTarget "Snehal_iOS_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A18426220FF4DBE00E92088 /* Debug */,
+				4A18426320FF4DBE00E92088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A18426420FF4DBE00E92088 /* Build configuration list for PBXNativeTarget "Snehal_iOS_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A18426520FF4DBE00E92088 /* Debug */,
+				4A18426620FF4DBE00E92088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A18422920FF4DBD00E92088 /* Project object */;
+}
